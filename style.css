@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+    padding: 0 200px;
+    background: #002200;
+    color: #fff;
+}
+
+
+h2 {
+    margin: 30px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 2em;
+    text-shadow: #00FF00 2px -1px 5px;
+}
+
+h3 {
+    margin: 30px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.3em;
+    text-shadow: #00FF00 2px -1px 5px;
+}
+
+input {
+    background: #027402;
+    font-size: 1em;
+    padding: 5px;
+    border: #002200;
+    border-radius: 5px;
+    box-shadow: #00FF00 5px -5px 5px;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+}
+
+button {
+    padding: 10px;
+    font-size: 0.9em;
+    border-radius: 10px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1em;
+
+
+}
+
+
+#tabuada {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-color: #00FF00;
+}
